@@ -9,7 +9,7 @@ class Palette extends Component {
     return (
       <ol className="Palette">
         {colors.map(color => (
-          <ColorSquare color={color} />
+          <ColorSquare key={color} color={color} />
         ))}
       </ol>
     );
