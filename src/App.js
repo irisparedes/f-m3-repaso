@@ -25,7 +25,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <ul>
+        <ul className="Ships">
           {ships.map(item => (
             <Ship data={item} />
           ))}

@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ColorSquare from './ColorSquare';
+import './Palette.css'
 
 class Palette extends Component {
   render() {
     const { colors } = this.props;
     return (
-      <ol>
+      <ol className="Palette">
         {colors.map(color => (
           <ColorSquare color={color} />
         ))}

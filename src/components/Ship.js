@@ -4,10 +4,9 @@ import Palette from './Palette';
 
 function Ship(props) {
   const { data } = props;
-  console.log(data);
   return (
-    <li>
-      <h2>{data.name}</h2>
+    <li className="Ship">
+      <h2 className="Ship__name">{data.name}</h2>
       <Palette colors={data.colors} />
     </li>
   );
