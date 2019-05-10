@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ColorSquare from './ColorSquare';
-import './Palette.css'
+import './Palette.css';
 
 class Palette extends Component {
   render() {

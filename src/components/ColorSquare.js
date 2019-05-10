@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './ColorSquare.css'
+import './ColorSquare.css';
 
 function ColorSquare(props) {
   const { color } = props;
@@ -8,7 +8,7 @@ function ColorSquare(props) {
     <li
       className="ColorSquare"
       style={{
-        backgroundColor: `#${color}`,
+        backgroundColor: `#${color}`
       }}
     />
   );
